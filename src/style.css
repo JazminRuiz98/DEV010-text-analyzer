@@ -1,0 +1,62 @@
+header{
+    font-family: 'Mulish', sans-serif;
+}
+
+ul{
+    list-style: none;
+    font-family: 'Mulish', sans-serif;
+}
+
+.recuento-palabra{
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+    border-right-width: 4px;
+    border-top-width: 4px;
+    border-width: 2px 0;
+    margin-bottom: 20px;
+}
+
+.recuento-caracter{
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+    border-right-width: 4px;
+    border-top-width: 4px;
+    border-width: 2px 0;
+    margin-bottom: 20px;
+}
+
+.recuento-caracter-espacio{
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+    border-right-width: 4px;
+    border-top-width: 4px;
+    border-width: 2px 0;
+    margin-bottom: 20px;
+}
+
+.recuento-numero{
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+    border-right-width: 4px;
+    border-top-width: 4px;
+    border-width: 2px 0;
+    margin-bottom: 20px;
+}
+
+.suma-numero{
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+    border-right-width: 4px;
+    border-top-width: 4px;
+    border-width: 2px 0;
+    margin-bottom: 20px;
+}
+
+.longitud-promedio{
+    border-bottom-width: 4px;
+    border-left-width: 4px;
+    border-right-width: 4px;
+    border-top-width: 4px;
+    border-width: 2px 0;
+    margin-bottom: 20px;
+}

@@ -5,6 +5,9 @@
   <meta charset="utf-8">
   <title>Analizador de texto</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital@0;1&display=swap" rel="stylesheet">
 </head>
 
 <body>
@@ -13,12 +16,12 @@
   </header>
 
   <ul>
-    <li data-testid="word-count">Recuento de palabras</li>
-    <li data-testid="character-count">Recuento de caracteres</li>
-    <li data-testid="character-no-spaces-count">Recuento de caracteres sin espacios</li>
-    <li data-testid="number-count">Recuento de numeros</li>
-    <li data-testid="number-sum">Suma de numeros</li>
-    <li data-testid="word-length-average">Longitud promedio de palabras</li>
+    <li class="recuento-palabra" data-testid="word-count">Recuento de palabras</li>
+    <li class="recuento-caracter" character-count">Recuento de caracteres</li>
+    <li class="recuento-caracter-espacio" character-no-spaces-count">Recuento de caracteres sin espacios</li>
+    <li class="recuento-numero" number-count">Recuento de numeros</li>
+    <li class="suma-numero" number-sum">Suma de numeros</li>
+    <li class="longitud-promedio" word-length-average">Longitud promedio de palabras</li>
   </ul>
 
   <textarea name="user-input"></textarea>
