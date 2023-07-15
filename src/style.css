@@ -1,10 +1,12 @@
-header{
+h1{
     font-family: 'Mulish', sans-serif;
+    text-align: center;
 }
 
 ul{
     list-style: none;
     font-family: 'Mulish', sans-serif;
+    text-align: center;
 }
 
 .recuento-palabra{
@@ -59,4 +61,14 @@ ul{
     border-top-width: 4px;
     border-width: 2px 0;
     margin-bottom: 20px;
+}
+
+#reset-button{
+    height: 2rem;
+    border-radius: 5px;
+}
+
+p{
+    font-family: 'Mulish', sans-serif;
+    text-align: center;
 }
