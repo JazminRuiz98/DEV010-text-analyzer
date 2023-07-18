@@ -63,18 +63,20 @@ ul{
     margin-bottom: 20px;
 }
 
-.user-input{
-    height: 10px;
+textarea{
+    height: 210px;
+    width: 380px;
+    
 }
 
 #reset-button{
     font-family: 'Mulish', sans-serif;
     height: 2rem;
     border-radius: 5px;
-
+    border-color: ;
 }
 
 p{
     font-family: 'Mulish', sans-serif;
-    text-align: center;
+    text-align: right;
 }
