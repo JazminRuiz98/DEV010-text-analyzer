@@ -1,15 +1,21 @@
-h1{
+body{
+    background-image: radial-gradient(circle, #fcd8af, #fdcda5, #fec29d, #ffb797, #ffab93, #ffa18f, #ff978c, #ff8d8b, #ff8288, #ff7886, #fe6c84, #fd6084);
+}
+
+header{
     font-family: 'Mulish', sans-serif;
+    font-size: 2.2rem;
     text-align: center;
 }
 
 ul{
     list-style: none;
     font-family: 'Mulish', sans-serif;
+    font-size: 1.5rem;
     text-align: center;
 }
 
-.recuento-palabra{
+.word-count{
     border-bottom-width: 4px;
     border-left-width: 4px;
     border-right-width: 4px;
@@ -18,7 +24,7 @@ ul{
     margin-bottom: 20px;
 }
 
-.recuento-caracter{
+.character-count{
     border-bottom-width: 4px;
     border-left-width: 4px;
     border-right-width: 4px;
@@ -27,7 +33,7 @@ ul{
     margin-bottom: 20px;
 }
 
-.recuento-caracter-espacio{
+.character-no-spaces-count{
     border-bottom-width: 4px;
     border-left-width: 4px;
     border-right-width: 4px;
@@ -36,7 +42,7 @@ ul{
     margin-bottom: 20px;
 }
 
-.recuento-numero{
+.number-count{
     border-bottom-width: 4px;
     border-left-width: 4px;
     border-right-width: 4px;
@@ -45,7 +51,7 @@ ul{
     margin-bottom: 20px;
 }
 
-.suma-numero{
+.number-sum{
     border-bottom-width: 4px;
     border-left-width: 4px;
     border-right-width: 4px;
@@ -54,7 +60,7 @@ ul{
     margin-bottom: 20px;
 }
 
-.longitud-promedio{
+.word-length-average{
     border-bottom-width: 4px;
     border-left-width: 4px;
     border-right-width: 4px;
@@ -63,10 +69,11 @@ ul{
     margin-bottom: 20px;
 }
 
-textarea{
+textarea[name="user-input"] {
     height: 210px;
-    width: 380px;
-    
+    width: 480px;
+    border-radius: 5px;
+    text-align: center;
 }
 
 #reset-button{
@@ -74,10 +81,14 @@ textarea{
     height: 2rem;
     border-radius: 5px;
     border-color: #30182b ;
-    background-color: #ffa590;
+    background-color: #bded7e;
 }
-
-p{
+    
+footer{
     font-family: 'Mulish', sans-serif;
+    font-size: 2rem;
     text-align: right;
+    background-image: radial-gradient(circle, #f5b7b1, #f7b3a9, #f8b0a1, #f8ac98, #f8a98f, #f7a184, #f69979, #f4916e, #f18160, #ee7153, #eb6047, #e74c3c);
+    border-radius: .3rem;
 }
+    /*background-color: #a75293 ;*/

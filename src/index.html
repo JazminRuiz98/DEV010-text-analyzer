@@ -15,16 +15,16 @@
     <h1>Analizador de Texto</h1>
   </header>
 
-  <ul>
-    <li class="recuento-palabra" data-testid="word-count">Recuento de palabras</li>
-    <li class="recuento-caracter" character-count">Recuento de caracteres</li>
-    <li class="recuento-caracter-espacio" character-no-spaces-count">Recuento de caracteres sin espacios</li>
-    <li class="recuento-numero" number-count">Recuento de numeros</li>
-    <li class="suma-numero" number-sum">Suma de numeros</li>
-    <li class="longitud-promedio" word-length-average">Longitud promedio de palabras</li>
+  <ul class="list">
+    <li class="word-count" data-testid="word-count">Recuento de palabras: 0 </li>
+    <li class="character-count" data-testid="character-count">Recuento de caracteres: 0 </li>
+    <li class="character-no-spaces-count" data-testid="character-no-spaces-count">Recuento de caracteres sin espacios: 0 </li>
+    <li class="number-count" data-testid="number-count">Recuento de numeros: 0 </li>
+    <li class="number-sum" data-testid="number-sum">Suma de numeros: 0 </li>
+    <li class="word-length-average" data-testid="word-length-average">Longitud promedio de palabras: 0 </li>
   </ul>
 
-  <textarea name="user-input"></textarea> <br>
+  <textarea name="user-input" placeholder="Escribe tu texto aquí"></textarea> <br>
   <button id="reset-button">Limpiar métricas</button>
 
   <footer>
@@ -32,5 +32,6 @@
   </footer>
 
   <script src="index.js" type="module"></script>
+  <script src="analyzer.js" type="module"></script>
 </body>
 </html>
