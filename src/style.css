@@ -15,58 +15,19 @@ ul{
     text-align: center;
 }
 
-.word-count{
-    border-bottom-width: 4px;
-    border-left-width: 4px;
-    border-right-width: 4px;
-    border-top-width: 4px;
-    border-width: 2px 0;
-    margin-bottom: 20px;
-}
-
-.character-count{
-    border-bottom-width: 4px;
-    border-left-width: 4px;
-    border-right-width: 4px;
-    border-top-width: 4px;
-    border-width: 2px 0;
-    margin-bottom: 20px;
-}
-
-.character-no-spaces-count{
-    border-bottom-width: 4px;
-    border-left-width: 4px;
-    border-right-width: 4px;
-    border-top-width: 4px;
-    border-width: 2px 0;
-    margin-bottom: 20px;
-}
-
-.number-count{
-    border-bottom-width: 4px;
-    border-left-width: 4px;
-    border-right-width: 4px;
-    border-top-width: 4px;
-    border-width: 2px 0;
-    margin-bottom: 20px;
-}
-
-.number-sum{
-    border-bottom-width: 4px;
-    border-left-width: 4px;
-    border-right-width: 4px;
-    border-top-width: 4px;
-    border-width: 2px 0;
-    margin-bottom: 20px;
-}
-
-.word-length-average{
-    border-bottom-width: 4px;
-    border-left-width: 4px;
-    border-right-width: 4px;
-    border-top-width: 4px;
-    border-width: 2px 0;
-    margin-bottom: 20px;
+.metrics{
+    border-style: dotted;
+    /*border-bottom-width: 2px; Es el ancho del borde de abajo
+    border-left-width: 2px; Es el ancho del borde izquierdo
+    border-right-width: 2px; Es el ancho del borde derecho
+    border-top-width: 2px; Es el ancho del borde de arriba*/
+    border-width: 2px 2px; /* Es el ancho del borde de los elementos 2px (ancho del borde de arriba y abajo) 2px (ancho del borde de izquierda y derecha)
+    /*margin-bottom: 15px; /*Es el margen inferior que separa los bordes de los elementos que tiene abajo
+    margin-right: 15px; Es el margen de la derecha que separa los bordes de los elementos que tiene a la derecha
+    margin-left:15px; Es el margen izquierdo que separa los bordes de los elementos que tiene a la izquierda
+    margin-top: 15px; Es el margen superior que separa los bordes de los elementos que tiene arriba*/
+    margin: 1rem 28rem; /*Permite controlar el espacio entre los elementos que tiene a los 4 lados. 1.5rem (espacio de arriba y abajo) y 22rem (espacio de derecha e izquierda)*/
+    border-radius: 2rem;
 }
 
 textarea[name="user-input"] {
@@ -78,17 +39,25 @@ textarea[name="user-input"] {
 
 #reset-button{
     font-family: 'Mulish', sans-serif;
-    height: 2rem;
-    border-radius: 5px;
-    border-color: #30182b ;
-    background-color: #bded7e;
+    font-size: 1.8rem;
+    height: 2.8rem;
+    border-width: 0.3rem;
+    border-radius: 0.70rem;
+    border-color: #bb78ac;
+    background-color: /*#B39CD0*/ #bded7e;
+}
+
+#reset-button:hover{  /*Es una pseudo-clase que se activa cuando el usuario pasa el mouse sobre el botón, pero no necesariamente lo activa.*/
+    background-color: #78e0e7 /*#bded7e*/; 
+    border-color: #B39CD0;
 }
     
 footer{
     font-family: 'Mulish', sans-serif;
     font-size: 2rem;
-    text-align: right;
+    text-align: center;
     background-image: radial-gradient(circle, #f5b7b1, #f7b3a9, #f8b0a1, #f8ac98, #f8a98f, #f7a184, #f69979, #f4916e, #f18160, #ee7153, #eb6047, #e74c3c);
     border-radius: .3rem;
+    margin: auto 40rem ;
 }
     /*background-color: #a75293 ;*/
