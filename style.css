@@ -1,0 +1,102 @@
+body{
+    background-image: radial-gradient(circle, #fcd8af, #fdcda5, #fec29d, #ffb797, #ffab93, #ffa18f, #ff978c, #ff8d8b, #ff8288, #ff7886, #fe6c84, #fd6084);
+}
+
+header{
+    font-family: 'Mulish', sans-serif;
+    font-size: 2.2rem;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.5rem;
+    text-align: center;
+    /* Agrega un contenedor para los boxes y utiliza flexbox */
+    display: flex;
+    flex-wrap: wrap; /* Permite que los boxes se reorganicen en varias líneas si no caben en una sola */
+    justify-content: space-between; /* Distribuye los boxes de manera equitativa en el contenedor */
+}
+
+
+.metrics{
+    border-style: dotted;
+    border-color: /*#461959*/ #64274d;
+    /*border-bottom-width: 2px; Es el ancho del borde de abajo
+    border-left-width: 2px; Es el ancho del borde izquierdo
+    border-right-width: 2px; Es el ancho del borde derecho
+    border-top-width: 2px; Es el ancho del borde de arriba*/
+    border-width: .1rem .2rem; /* Es el ancho del borde de los elementos .1rem (ancho del borde de arriba y abajo) .2rem (ancho del borde de izquierda y derecha)
+    /*margin-bottom: 15px; /*Es el margen inferior que separa los bordes de los elementos que tiene abajo
+    margin-right: 15px; Es el margen de la derecha que separa los bordes de los elementos que tiene a la derecha
+    margin-left:15px; Es el margen izquierdo que separa los bordes de los elementos que tiene a la izquierda
+    margin-top: 15px; Es el margen superior que separa los bordes de los elementos que tiene arriba*/
+    margin: 1rem; /*Permite controlar el espacio entre los elementos que tiene a los 4 lados. 1.5rem (espacio de arriba y abajo) y 0rem (espacio de derecha e izquierda)*/
+    padding: .5rem; /* Agrega un espacio interno dentro del box */
+    border-radius: 2rem;
+    flex: 0 0 calc(33.33% - 4rem); /* Establece el tamaño de cada box como el 33.33% del contenedor menos el espacio de margen */
+}
+
+/*Selector de nombre */
+/*tag[atributo="valor"]*/
+div[name="textarea-container"] {
+    /* Establece el contenedor como flex y alinea su contenido tanto horizontal como verticalmente */
+    display: flex;
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+    min-height: 20vh; /* Establece una altura mínima del 40% del viewport */
+    padding: 10px; /* Agrega un poco de espacio interno para que no quede pegado al borde */
+}
+
+/*Selector de nombre */
+/*tag[atributo="valor"]*/
+textarea[name="user-input"] {
+    height: 18rem;
+    width: 480rem;
+    border-radius: 5px;
+    text-align: center;
+    margin: 0 auto;/* Establece los márgenes izquierdo y derecho como "auto" para centrar el textarea */
+    /*Estilo para el texto dentro de textarea*/
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.2rem;
+}
+
+#reset-button{
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.8rem;
+    height: 2.8rem;
+    border-width: 0.3rem;
+    border-radius: 0.70rem;
+    border-color: #bb78ac;
+    background-color: /*#B39CD0*/ #bded7e;
+}
+
+#reset-button:hover{  /*Es una pseudo-clase que se activa cuando el usuario pasa el mouse sobre el botón, pero no necesariamente lo activa.*/
+    background-color: #78e0e7 /*#bded7e*/; 
+    border-color: #B39CD0;
+}
+
+#reset-button:active{  /*Es una pseudo-clase que se activa cuando el usuario pasa el mouse sobre el botón, pero no necesariamente lo activa.*/
+    background-color: /*#b8ee71 /*#bded7e*/#70e99b; 
+    border-color: #B39CD0;
+}
+    
+footer{
+    
+    background-image: linear-gradient(to right top, #6f61c0, #7b6aca, #8772d4, #947bde, #a084e8);
+    border-radius: .9rem;
+    max-height: 4rem;
+    margin: 1rem 20%/*auto 40rem */; /* Centro vertical y horizontalmente usando flexbox */
+    max-width: 96rem; /* Limita el ancho del footer */
+    padding: .5rem; /* Agrega un poco de espacio interno */
+}
+
+p{
+    font-family: 'Mulish', sans-serif;
+    font-size: 1.8rem;
+    text-align: center;
+    max-height: 2rem;
+    margin: 1rem 15%;
+}
+    /*background-color: #a75293 ;*/

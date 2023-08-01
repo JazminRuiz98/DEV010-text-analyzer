@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>Analizador de texto</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Mulish:ital@0;1&display=swap" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1>Analizador de Texto</h1>
+  </header>
+  
+  <main>
+
+    <ul class="metrics-list">
+      <li class="metrics" data-testid="word-count">Recuento de palabras: 0 </li>
+      <li class="metrics" data-testid="character-count">Recuento de caracteres: 0 </li>
+      <li class="metrics" data-testid="character-no-spaces-count">Recuento de caracteres sin espacios: 0 </li>
+      <li class="metrics" data-testid="number-count">Recuento de numeros: 0 </li>
+      <li class="metrics" data-testid="number-sum">Suma de numeros: 0 </li>
+      <li class="metrics" data-testid="word-length-average">Longitud promedio de palabras: 0 </li>
+    </ul>
+
+    <div name="textarea-container">
+      <textarea name="user-input" placeholder="Escribe tu texto aquí"></textarea>
+    </div> 
+    <button id="reset-button">Limpiar métricas</button>
+  
+  </main>
+
+  <footer>
+    <p>Autora: Jazmin Ruiz</p>
+  </footer>
+
+  <script src="index.js" type="module"></script>
+  <script src="analyzer.js" type="module"></script>
+</body>
+</html>
