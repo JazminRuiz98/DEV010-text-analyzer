@@ -1,4 +1,4 @@
-#:tw-1f423: Analizador de Texto:tw-1f423:
+# :tw-1f423: Analizador de Texto :tw-1f423:
 
 ### :tw-2733: Índice 
 ##### :tw-31-20e3: ¿Qué es?
@@ -23,7 +23,7 @@
 
 ------------
 ### :tw-2733: Vista previa.
-![](C:\Users\seanp\Pictures\vista previa.png)
+![](https://drive.google.com/file/d/1n6UJMypp_L2kKy6vzDRS7SrTs4K5Kf9z/view?usp=drive_link)
 
 ------------
 ### :tw-2733: Recursos utilizados.
@@ -40,5 +40,9 @@
 ###### - https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed
 ###### - https://www.neoguias.com/longitud-cadena-javascript/
 ###### - https://lineadecodigo.com/javascript/contar-caracteres-y-palabras-en-javascript/#:~:text=Una%20vez%20que%20tenemos%20el,palabras%20que%20tiene%20dicho%20texto.
+
+
+
+
 
 
