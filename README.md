@@ -1,4 +1,4 @@
-# :tw-1f423: Analizador de Texto :tw-1f423:
+#:tw-1f423: Analizador de Texto:tw-1f423:
 
 ### :tw-2733: Índice 
 ##### :tw-31-20e3: ¿Qué es?
