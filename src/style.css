@@ -30,6 +30,7 @@ ul{
     border-radius: 2rem;
 }
 
+/*Selector de nombre */
 textarea[name="user-input"] {
     height: 210px;
     width: 480px;
