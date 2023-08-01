@@ -20,6 +20,7 @@ const button = document.getElementById('reset-button');
 //Para borrar el texto dentro del textarea
 function cleanText () {
   textarea.value='';
+  metrics();
 }
 
 button.addEventListener('click',cleanText);
