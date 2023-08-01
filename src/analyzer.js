@@ -31,7 +31,7 @@ const analyzer = {
     //TODO: esta función debe retornar el recuento de caracteres excluyendo espacios y signos de puntuación que se encuentran en el parámetro `text` de tipo `string`.
     let countCharacter = 0;
     //const spaces = /\s+/;
-    const punctuationMarks = /[!"#$%&'()*+,\-./:;<=>?@[\\\]^_`{|}~¡¿«»“”‘’´¨\s]/g;// Expresión regular para excluir sirgnos de puntuación
+    const punctuationMarks = /[!"#$%&'()*+,\-./:;<=>?@[\\\]^_`{|}~¡¿«»“”‘’´¨\s]/g;// Expresión regular para excluir signos de puntuación y espacios
     for (let i = 0; i < text.length; i++) {
       //! (negación) se utiliza aquí para INVERTIR el resultado de punctuationmarks.test(text[i]). Si el resultado original era true (es decir, el carácter actual es un carácter de puntuación o espacio en blanco), la negación lo convierte en false. Si el resultado original era false, la negación lo convierte en true.
       if (text[i] !== ' ' && !punctuationMarks.test(text[i])) {
@@ -58,7 +58,7 @@ const analyzer = {
     let charNumber = 0;
     words.forEach(word => charNumber = charNumber + word.length);
     const average = charNumber/words.length;
-    return parseFloat(average.toFixed(2));
+    return parseFloat(average.toFixed(2));/*es un método para delimitar a decimales, en este caso a dos decimales (2).*/ 
    
   },
   getNumberCount: (text) => {
@@ -71,19 +71,19 @@ const analyzer = {
 
 
     const numbersCount = text.match(/(?<!\w)\d+(\.\d+)?(?!\w)/g);
-    //Lo que hace la expresión regular, parte por parte:
-    /*(?<!\w): Es un "lookbehind" negativo que asegura que el número no esté precedido por un carácter de palabra (\w). Esto significa que solo encontrará números "solos", que no están dentro de una palabra.
-    \d+: Busca uno o más dígitos (0-9). Esto representa la parte entera del número.
-    (\.\d+)?: Es un grupo opcional que busca un punto seguido de uno o más dígitos (0-9). Esto representa la parte decimal del número. El signo de interrogación indica que esta parte decimal es opcional, por lo que el número puede ser entero o decimal.
-    (?!\w): Es un "lookahead" negativo que asegura que el número no esté seguido por un carácter de palabra (\w). Esto evita que se cuenten números que forman parte de una palabra.
-    g: Esta "bandera" indica que la búsqueda se realizará globalmente en todo el texto, no solo en la primera coincidencia. */
-
     if (numbersCount !== null) {
       return numbersCount.length;
     } 
     else {
       return 0;
     }
+
+    //Lo que hace la expresión regular (/(?<!\w)\d+(\.\d+)?(?!\w)/g), parte por parte:
+    /*(?<!\w): Es un "lookbehind" negativo que asegura que el número no esté precedido por un carácter de palabra (\w). Esto significa que solo encontrará números "solos", que no están dentro de una palabra.
+    \d+: Busca uno o más dígitos (0-9). Esto representa la parte entera del número.
+    (\.\d+)?: Es un grupo opcional que busca un punto seguido de uno o más dígitos (0-9). Esto representa la parte decimal del número. El signo de interrogación indica que esta parte decimal es opcional, por lo que el número puede ser entero o decimal.
+    (?!\w): Es un "lookahead" negativo que asegura que el número no esté seguido por un carácter de palabra (\w). Esto evita que se cuenten números que forman parte de una palabra.
+    g: Esta "bandera" indica que la búsqueda se realizará globalmente en todo el texto, no solo en la primera coincidencia. */
 
     /*Una forma de abreviar if:
     const numbersCount = text.match(/(?<!\w)\d+(\.\d+)?(?!\w)/g);
@@ -92,9 +92,6 @@ const analyzer = {
     ':' Es la separación entre el valor que se devuelve si la condición es verdadera y el valor que se devuelve si la condición es falsa.
     Si es verdadero (tiene al menos un numero), entonces se devuelve la cantidad de números encontrados (numbersCount.length).
     En caso de que sea es falso o nulo(no contiene ningún número ), entonces se devuelve 0.*/
-
-
-    
      
   },
   getNumberSum: (text) => {
