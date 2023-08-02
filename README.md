@@ -23,7 +23,9 @@
 
 ------------
 ## :cloud: Vista previa.
-![](https://drive.google.com/file/d/1n6UJMypp_L2kKy6vzDRS7SrTs4K5Kf9z/view?usp=sharing)
+#### ![demo](https://i.imgur.com/CbB5lbz.png)
+
+#### ![funcionamiento](https://i.imgur.com/pgO9ZHx.png)
 
 ------------
 ## :cloud: Recursos utilizados.
