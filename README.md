@@ -41,4 +41,4 @@
 ##### - https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/String/length
 ##### - https://developer.mozilla.org/es/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed
 ##### - https://www.neoguias.com/longitud-cadena-javascript/
-##### - https://lineadecodigo.com/javascript/contar-caracteres-y-palabras-en-javascript/#:~:text=Una%20vez%20que%20tenemos%20el,palabras%20que%20tiene%20dicho%20texto.
+
